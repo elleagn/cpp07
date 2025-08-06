@@ -12,7 +12,7 @@
 
 NAME = ex02
 CC = c++
-CFLAGS = -Wall -Wextra -Werror -Wshadow -Wpedantic -std=c++98 -fPIE
+CFLAGS = -Wall -Wextra -Werror -std=c++98
 CPP =	main.cpp
 OBJ_DIR = objects
 OBJ = $(CPP:%.cpp=$(OBJ_DIR)/%.o)
